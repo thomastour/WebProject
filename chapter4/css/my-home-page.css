@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #272727;
+}
+
+.logo {
+    float: left;
+    
+}
+
+.logo > img {
+    width: auto;
+    height: 120px;
+    
+}
+
+.nav {
+    float: left;
+    width: 500px;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 120px;
+    list-style: none;
+}
+
+
+
+.nav a {
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #93564B ;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    left: -20px;
+    padding: 40px;
+    
+}
+
+.dropdown-content a {
+    display: block;
+
+}
+
+
+.dropdown-content a:hover {
+    background-color: #93564B;
+}
+
+.dropdown > a {
+    position: relative;
+}
+
+.dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+
+
+.dropdown a:hover {
+    background-color: #93564B;
+}
+
+
+.nav a:hover {
+    background-color: grey;
+}
+
+
+.nav a:active {
+    background-color: rgb(47, 215, 221);
+}
+
+.home-img {
+    overflow: hidden;
+    height: calc(95vh - 120px);
+    background-image: url('../../img/tep-aueb2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.home-title {
+    width: 60%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+.home-subtitle {
+    width: 50%;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    font-size: 1.5rem;
+}
+
+.gap-bottom {
+    margin-bottom: 25px;
+
+}
+
+
+
+.main-title {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #272727;
+    height: 150px;
+    color: whitesmoke;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social-text {
+    color: rgb(66, 141, 226);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.social-text3 {
+    color: rgb(192, 40, 35);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+
+
+.social > span {
+    margin-right: 10px;
+}
+
+

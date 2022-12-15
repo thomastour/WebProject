@@ -1,0 +1,22 @@
+.container {
+    width: 90%;
+}
+
+.img {
+    width: 500px;
+    height:auto;
+}
+
+.web-dev {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color:#762124;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline; 
+    text-align:center;
+}
+
+.web-text   {
+    font-family: Quicksand;
+    font-weight: 400;
+}
